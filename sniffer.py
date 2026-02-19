@@ -7,7 +7,13 @@ import requests
 captured_packets = []
 ip_traffic = defaultdict(int)
 protocol_count = {"TCP": 0, "UDP": 0, "DNS": 0, "Other": 0}
-numPackets = 30
+
+# let user pick how many packets they want to see
+try:
+    numPackets = int(input("How many packets (number) do you want to analyze: "))
+except ValueError:
+    print("Invalid input, defaulting to 50 packets.")
+    numPackets = 50
 
 # -----------------------------------------
 # IP HELPERS
