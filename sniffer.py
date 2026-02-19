@@ -7,7 +7,7 @@ import requests
 captured_packets = []
 ip_traffic = defaultdict(int)
 protocol_count = {"TCP": 0, "UDP": 0, "DNS": 0, "Other": 0}
-numPackets = 100
+numPackets = 30
 
 # -----------------------------------------
 # IP HELPERS
