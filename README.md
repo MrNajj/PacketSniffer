@@ -56,4 +56,4 @@ All the tools that have been used for this python script is all open sourced and
 
 # License
 This project is licensed under the GNU General Public License v3.0. 
-See the [LICENSE](LICENSE) file for details.
+See the [LICENSE](LICENSE.txt) file for details.
