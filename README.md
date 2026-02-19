@@ -53,6 +53,7 @@ While this program was built with good intentions, it is important to be transpa
 This tool does not decrypt HTTPS traffic, see beyond your own network, does not make you anonymous
 
 All the tools that have been used for this python script is all open sourced and extensively documented.
+References: Claude GenAI assistant to help with explaining the different IP addresses and writing code to provide text on terminal about those IP addresses. 
 
 # License
 This project is licensed under the GNU General Public License v3.0. 
